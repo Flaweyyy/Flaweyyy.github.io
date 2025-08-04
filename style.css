@@ -1,0 +1,211 @@
+* {
+    border: 1px solid transparent;
+    margin: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#civicid{
+    border: 1px solid transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+#clickersafespace{
+    border: 1px solid black;
+    height: 50vh;
+}
+
+body {
+    background-image: url(../images/wallpaper.jpg);
+    background-size: cover;
+    background: rgb(26, 24, 33);
+    color: white;
+}
+
+hr {
+    background-color: white;
+}
+
+.page {
+    height: max-content;
+    border: 1px solid transparent;
+    background: transparent;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.imgdesc {
+    display: inline;
+    text-align: center;
+    width: 10vh;
+    height: max-content;
+
+}
+
+.respimg {
+    max-width: 95%;
+    text-align: center;
+}
+
+.pagecontainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main {
+    flex: 9;
+    height: max-content;
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+    vertical-align: bottom;
+}
+
+/* standardises button size */
+button {
+    width: 30vh;
+    height: 10vh;
+    color: black;
+    border: 1px solid black;
+    background-color: lightblue;
+    transition: 0.2s ease-in-out;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: rgb(127, 184, 203);
+}
+
+#headnav {
+    text-align: center;
+}
+
+#btnFS,
+#btnWS {
+    text-align: center;
+}
+
+#btnWS {
+    display: none;
+}
+
+.menuShow {
+    padding: 0;
+}
+
+/* to change colours of buttons */
+.active {
+    background-color: rgb(189, 183, 255);
+        transition: 0.2s ease-in-out;
+}
+
+.active:hover {
+    background-color: rgb(180, 174, 230);
+}
+
+
+/* override and sets text to the left side */
+.textleft {
+    text-align: left;
+}
+
+/* resp layout */
+.col,
+.col2,
+.speccol,
+.speccol2 {
+    vertical-align: top;
+    width: 100%;
+    text-align: center;
+}
+
+.speccol {
+    background-color: rgb(27, 27, 27);
+    border: 1px solid;
+}
+
+.menuShow {
+    display: block;
+}
+
+
+nav ul li {
+    display: inline;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul {
+    display: none;
+}
+
+#qr {
+    display: none;
+}
+
+@media(min-width: 800px) {
+
+    #hamIcon {
+        display: none;
+    }
+
+    li {
+        display: inline;
+    }
+
+    nav ul {
+        display: inline;
+        padding: 0;
+    }
+
+    .header {
+        display: none;
+    }
+
+    button {
+        width: 30vh;
+        height: 5vh;
+        color: black;
+        border: 1px solid black;
+        background-color: lightblue;
+    }
+
+    button:hover{
+            width: 35vh;
+            height: 8vh;
+    transition:  0.1s;
+    }
+
+    .col,
+    .speccol {
+        display: inline-block;
+        width: 32.5%;
+    }
+
+    .col2 {
+        display: inline-block;
+        width: 49.5%;
+    }
+
+    .speccol2 {
+        display: inline-block;
+        width: 65%;
+    }
+
+    #qr {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
