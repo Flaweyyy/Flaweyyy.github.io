@@ -205,31 +205,42 @@
             <br>
             <h2 class="header">Fun Games</h2> <br>
             <hr>
+            <div class="col">
+                <h2>MCQ Quiz</h2>
+                <fieldset>
+                    <legend>1. What is system the Honda Civic known for?</legend>
+                    <label> <input type="radio" name="q1" value="HTEC"> HTEC </label>
+                    <label> <input type="radio" name="q1" value="BTEC"> BTEC </label>
+                    <label> <input type="radio" name="q1" value="ETEC"> ETC </label>
+                    <label> <input type="radio" name="q1" value="VTEC"> VTEC </label>
+                </fieldset> <br>
+                <fieldset>
+                    <legend>2. What is the performance version of the Honda Civic called?</legend>
+                    <label> <input type="radio" name="q2" value="Type-R"> Type-R </label>
+                    <label> <input type="radio" name="q2" value="Type-C"> Type-C </label>
+                    <label> <input type="radio" name="q2" value="Si"> Si </label>
+                    <label> <input type="radio" name="q2" value="LX"> LX </label>
+                </fieldset>
+                <button id="btnSubmit">Submit Quiz</button>
+                <h3 id="scorebox">Not submitted</h3>
+            </div>
 
-            <h2>MCQ Quiz</h2>
-            <fieldset>
-                <legend>1. What is system the Honda Civic known for?</legend>
-                <input type="radio" name="q1" value="HTEC"> HTEC
-                <input type="radio" name="q1" value="BTEC"> BTEC
-                <input type="radio" name="q1" value="ETEC"> ETC
-                <input type="radio" name="q1" value="VTEC"> VTEC
-            </fieldset> <br>
-            <fieldset>
-                <legend>2. Which of these is a primary color?</legend>
-                <input type="radio" name="q2" value="Cyan"> Cyan
-                <input type="radio" name="q2" value="Orange"> Orange
-                <input type="radio" name="q2" value="Purple"> Purple
-                <input type="radio" name="q2" value="Red"> Red
-            </fieldset>
-            <button id="btnSubmit">Submit Quiz</button>
-            <h3 id="scorebox">Not submitted</h3>
+            <div class="col2">
+                <h2>Catch the Honda Civics</h2>
+                <p>Click/Tap to catch it</p>
+                <button id="stopBtn">Stop!</button>
+                <h2 id="scoreboxclicker">Score: 0</h2>
+                <div id="clickersafespace">
+                    <img id="civicid" src="images/civicgame.jpg" alt="civicimg" height="100">
+                </div>
 
+            </div>
         </section>
     </main>
 
     <footer class="footer">
         <img src="images/AA.jpg" alt="qr code" width="100" id="qr">
-        <h4>&copy;MyPortfolio</h4>
+        <h4>&copy;song jie</h4>
     </footer>
 </body>
 
