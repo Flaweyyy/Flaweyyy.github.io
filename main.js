@@ -69,8 +69,6 @@ function CheckAns() {
     if (q2 == "Type-R") score++;
     scorebox.innerHTML = "Score: " + score;
 }
-
-// this SUCKS
 const hamBtn = document.querySelector("#hamIcon");
 hamBtn.addEventListener("click", toggleMenus);
 const menuItemsList = document.querySelector("nav ul");
